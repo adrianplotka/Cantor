@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    flex-basis: 700px;
+    margin: 20px;
+    padding: 40px;
+}

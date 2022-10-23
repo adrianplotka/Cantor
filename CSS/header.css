@@ -1,0 +1,6 @@
+header {
+    color: hsl(219, 37%, 89%);
+}
+.header__title {
+    text-align: center;
+}

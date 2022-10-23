@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter </title>
+    <link rel="icon" href="images/icon.png">
+    <meta property="og:image" content="images/share.png"/>
+    <script defer src="JS/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/body.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/info.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">
+                Kalkulator walutowy
+            </h1>
+        </header>
+        <main>
+            <form class="form js-form">
+                <label class="form__label">
+                    <P>Wybierz walutę</P>
+                    <select class="form__field js-currency">currency
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="USD">Dolar Amerykański (USD)</option>
+                        <option value="CHF">Frank Szwajcarski (CHF)</option>
+                        <option value="GBP">Funkt Szterling (GBP)</option>
+                    </select>
+                </label>
+                <label class="form__field ">
+                    <p>Kwota do przeliczenia</p>
+                    <input class="js-amount" type="number" placeholder="Kwota" required>
+                </label>
+                <div class="form__buttons">
+                    <button class="form__button" type="submit">Przelicz</button>
+                    <button class="form__button" type="reset">Resetuj</button>
+                </div>
+            </form>
+                <div class="result">
+                    <P>Wynik w PLN
+                        <strong class="js-result">0.00</strong>
+                    </P>
+                </div>
+            <div class="info">
+                <p>*Kurs walut na dzień <strong>15.10.2022</strong></p>
+                <b>(EUR) 4.8019 (USD) 4.9382 (CHF) 4.9190 (GBP) 5.5168</b>
+            </div>
+            <footer class="footer">
+                © Wszystkie prawa zastrzeżone<br>
+                Żukowo, 15 październik 2022r.
+            </footer>
+        </main>
+    </div>
+    
+</body>
+</main>
+
+</html>

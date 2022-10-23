@@ -1,0 +1,33 @@
+.form {
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.form__button {
+    margin-top: 20px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.form__button:hover {
+    background-color: hsl(208, 100%, 92%);
+}
+
+.form__button:active {
+    background-color: hsl(208, 100%, 87%);
+}
+
+.result {
+    border: 2px solid rgb(27, 24, 24);
+    border-radius: 15px;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
